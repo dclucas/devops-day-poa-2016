@@ -1,0 +1,19 @@
+{
+  "name": "devops-days-poa-2016",
+  "version": "0.1.0",
+  "description": "Content for my devops days Porto Alegre 2016 presentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "devops",
+    "devopsdays",
+    "APIs",
+    "microservices",
+    "testing",
+    "monitoring"
+  ],
+  "author": "Diogo Lucas (diogo.lucas@gmail.com)",
+  "license": "MIT"
+}
