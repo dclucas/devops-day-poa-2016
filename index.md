@@ -1,10 +1,18 @@
 #devops && micro-serviços
 
+*dicas e considerações*
+
 ---
 
-micro-serviços são uma mão na roda...
+micro-serviços: agilidade
 
-mas também podem se tornar complexos
+---
+
+micro-serviços: gestalt
+
+---
+
+...*mas problemas complexos seguem complexos*
 
 ---
 
@@ -14,21 +22,68 @@ como podemos...
 * versionar?
 * deployar?
 * monitorar?
+* debugar?
 
 ---
 
-a pirâmide de testes, revisitada
+testes: [considere mais testes de serviço](https://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid)
 
 ---
 
-versionamento: semVer e contract tests ao socorro
+testes: use testes de integração de serviços
 
 ---
 
-## dicas:
-
-* comece com um monolito
-* segregue seus testes por tipo 
+testes: considere automação de post-deployment checks
 
 ---
 
+testes: segregue a execução de testes
+
+---
+
+versionamento: [use semVer](http://semver.org/)
+
+---
+
+testes/versionamento: [consumer-driven contracts](http://martinfowler.com/articles/consumerDrivenContracts.html)
+
+---
+
+deploy: comece com um monolito
+
+---
+
+deploy: [github flow](https://guides.github.com/introduction/flow/) > [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+
+---
+
+deploy: [blue/green](http://martinfowler.com/bliki/BlueGreenDeployment.html)
+
+---
+
+monitoramento: APM
+
+---
+
+monitoramento: health checks ([jidoka](http://blog.toyota.co.uk/jidoka-toyota-production-system))
+
+---
+
+debugging: [status codes *com significado*](http://jsonapi.org/)
+
+---
+
+debugging: log aggregation & [correlação de eventos](https://en.wikipedia.org/wiki/Event_correlation)
+
+---
+
+dica: [12-factor](http://12factor.net/)
+
+---
+
+dica: [reactive manifesto](http://www.reactivemanifesto.org/)
+
+---
+
+tks
