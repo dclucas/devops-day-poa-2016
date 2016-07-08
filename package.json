@@ -4,7 +4,7 @@
   "description": "Content for my devops days Porto Alegre 2016 presentation",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/reveal-md index.md",
+    "start": "./node_modules/.bin/reveal-md ./index.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,7 +17,7 @@
   ],
   "author": "Diogo Lucas (diogo.lucas@gmail.com)",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "reveal-md": "0.0.29"
   }
 }
