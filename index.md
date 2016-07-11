@@ -58,6 +58,10 @@ deploy: [github flow](https://guides.github.com/introduction/flow/) > [gitflow](
 
 ---
 
+teste: exercite falha
+
+---
+
 deploy: [blue/green](http://martinfowler.com/bliki/BlueGreenDeployment.html)
 
 ---
@@ -66,7 +70,7 @@ monitoramento: APM
 
 ---
 
-monitoramento: health checks ([jidoka](http://blog.toyota.co.uk/jidoka-toyota-production-system))
+monitoramento: health checks ([jidoka](http://blog.toyota.co.uk/jidoka-toyota-production-system)) & dashboards
 
 ---
 
